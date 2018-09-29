@@ -8,11 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainVC: UIViewController {
+
+    @IBOutlet private weak var wageTextField: UITextField!
+    @IBOutlet private weak var itemTextField: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
 
